@@ -16,7 +16,7 @@ if(random1 > random2)
   let div = document.createElement('div');
   let image = document.createElement('img');
   image.className = "img";
-  image.src = "file:///D:/Tutorials/Web%20development/WEB%20PROJECTS/Dicee%20Challenge%20-%20Starting%20Files/images/flag.png";
+  image.src = "file:///D:/Tutorials/Web%20development/WEB%20PROJECTS/Dice%20Challenge/Dice-Challenge/images/flag.png";
   div.appendChild(image);
   div.className = "header";
   div.appendChild(header);
@@ -31,7 +31,7 @@ else if (random2 > random1)
     div.className = "header";
     div.appendChild(header);
     let image = document.createElement('img');
-    image.src = "file:///D:/Tutorials/Web%20development/WEB%20PROJECTS/Dicee%20Challenge%20-%20Starting%20Files/images/flag.png";
+    image.src = "file:///D:/Tutorials/Web%20development/WEB%20PROJECTS/Dice%20Challenge/Dice-Challenge/images/flag.png";
     div.appendChild(image);
     let dicElement = document.querySelectorAll('.dice')[0];
     let container = document.querySelector('.container');
